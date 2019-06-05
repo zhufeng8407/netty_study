@@ -1,0 +1,16 @@
+syntax = "proto3";
+
+package com.zhufeng.proto;
+
+option java_package = "com.zhufeng.proto";
+option java_outer_classname = "StudentProto";
+option java_multiple_files = true;
+
+
+message MyRequest {
+    string username = 1;
+}
+
+message MyResponse {
+    string realname = 2;
+}
